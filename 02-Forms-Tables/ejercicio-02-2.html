@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02/2 - Tablas en HTML</title>
+        <style>
+
+            h2 { text-align: center; text-transform: uppercase;}
+
+            table {
+                border: 2px solid black;
+                box-shadow: 1px 1px 3px rgb(7, 138, 179);
+                border-collapse: collapse;
+            }
+
+            th {
+                background: rgb(4, 84, 116);
+                color: white;
+                text-transform: uppercase;
+            }
+
+            th, td {
+                border: 1px solid rgb(2, 2, 15);
+                padding: 10px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+        <h2>Mis 3 Libros Favoritos</h2>
+
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Año de publicación</th>
+                <th>Enlace a Amazon</th>
+            </tr>
+
+            <tr>
+                <td>El gran libro de HTML5, CSS3 y JavaScript 3ª Edición</td>
+                <td>Juan Diego Gauchat</td>
+                <td>2019</td>
+                <td>
+                    <a href="https://www.amazon.com/-/es/Juan-Diego-Gauchat/dp/8426724639" target="_blank">
+                        https://www.amazon.com/-/es/Juan-Diego-Gauchat
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming</td>
+                <td>Marijn Haverbeke </td>
+                <td>2018</td>
+                <td>
+                    <a href="https://www.amazon.com/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507" target="_blank">
+                        https://www.amazon.com/-/es/Marijn-Haverbeke
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5</td>
+                <td>Robin Nixon</td>
+                <td>2018</td>
+                <td>
+                    <a href="https://www.amazon.com/Learning-PHP-MySQL-JavaScript-Javascript/dp/1491978910" target="_blank">
+                        https://www.amazon.com/Learning-PHP-MySQL-JavaScript-Javascript
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
